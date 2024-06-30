@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Assign reviewer from sca-qe team
+      - name: Assign reviewer from SCA-QE team
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const reviewers = ['reviewer1', 'reviewer2', 'reviewer3']; // Add your sca-qe team reviewers here
-            const team_slug = 'sca-qe'; // Replace with your actual team slug
+            const reviewers = ['reviewer1', 'reviewer2', 'reviewer3']; // Add your SCA-QE team reviewers here
+            const team_slug = 'SCA-QE'; // Replace with your actual team slug
 
             const { owner, repo } = context.repo;
             const pr_number = context.payload.pull_request.number;
