@@ -15,7 +15,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const reviewers = ['reviewer1', 'reviewer2', 'reviewer3']; // Add your SCA-QE team reviewers here
+            const reviewers = ['UDAYVK36', 'Nikvalandas']; // Add your SCA-QE team reviewers here
             const team_slug = 'SCA-QE'; // Replace with your actual team slug
 
             const { owner, repo } = context.repo;
