@@ -7,3 +7,4 @@ Checking the Flaw of Pull Request
 Editing the ORg1 Directly
 Fetching the changes 
 Gitpull
+Checking GIt PR by rasiing PR to feature/uday1
